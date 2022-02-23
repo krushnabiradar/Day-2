@@ -1,0 +1,101 @@
+Q1 . List 5 difference between Browser JS(console) v Nodejs ?
+
+Ans...
+
+         JS(console)							NodeJS
+1)   Javascript can only be run in the            	1)  We can run Javascript outside the browser 
+      browsers.                                     	   with the help of NodeJS.
+2)   It is basically used on the client-side.     	2)  It is mostly used on the server-side.
+3)   Javascript is capable enough to add HTML     	3)  Nodejs does not have capability to add HTML tags.
+     and play with the DOM.
+4)   Javascript is used in frontend               	4)  Nodejs is used in server-side development. 
+     development. 
+5)   It is the upgraded version of ECMA script          5)  Nodejs is written in C, C++ and Javascript.
+     that uses Chrome’s V8 engine written in C++.   
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+______________________________________________________________________________________________________________________________________________________________________________________
+
+
+Q2  .  Execute the below code and write your description in txt file
+	a) typeof(1)
+	b) typeof(1.1)
+	c) typeof('1.1')
+	d) typeof(true)
+	e) typeof(null)
+	f) typeof(undefined)
+	g) typeof([])
+	h) typeof({})
+	i) typeof(NaN)
+
+
+Ans...
+
+
+console.log(typeof(1))...............// Number
+console.log(typeof(1.1)).............// Number
+console.log(typeof('1.1'))...........// string
+console.log(typeof(true))............// boolean
+console.log(typeof(null))............// object
+console.log(typeof(undefined)).......// undefined
+console.log(typeof([]))..............// object
+console.log(typeof({}))..............// object
+console.log(typeof(NaN)).............// number
+
+
+_________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+Q3  .   watch & summary 5 points -
+                https://www.youtube.com/watch?v=SmE4OwHztCc&ab_channel=JSConf
+             
+Ans....
+
+
+1) Parsing HTML
+	i) HTML id forgiving by nature
+       ii) In HTML parsing is not straight forward.
+      iii) can be halted.
+       iv) will do speculative parsing.
+
+2) Parse tree = basically parse tree is representation of your html.
+3) types of render tree:
+	i) RenderObject.
+       ii) RenderStyle.
+      iii) RenderLayers.
+       iv) Line Boxes.
+
+4) Will batch layout
+
+5) Inline crtical CSS
+        i) Way of taking the most inmortant bits of your site and inlining the CSS
+	   in a style tag inside your HTML. 
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
